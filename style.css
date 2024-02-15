@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+ul,li{
+    display: inline;
+    color: gray;
+}
+li:hover{
+    
+    color: white;
+}
+nav{
+    cursor: pointer;
+}
+
+.box{
+    width: 220px; /* Increased width by 50% */
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    display: inline-block;
+
+}
+.product{
+    padding: 50px;
+    text-align: center;
+}
+h5{
+    background-color: black;
+    color:gray;
+    display: inline-block;
+    padding: 5px;
+}
+h5:hover{
+    color: white;
+}
+.contact{
+   
+    background-color: black;
+    color: white;
+    padding: 30px;
+    
+}
+button{
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    border: none;
+   border-radius: 5px;
+    cursor: pointer;
+    width: 40%;
+    margin-top: 5px;
+}
+
